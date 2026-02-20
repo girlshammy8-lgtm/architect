@@ -132,7 +132,7 @@ nav.scrolled {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hero_skyscraper.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hero.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
