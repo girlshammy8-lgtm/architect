@@ -63,6 +63,7 @@ document.querySelectorAll('.counters').forEach(el => observer.observe(el));
 
 // Mobile Menu Toggle
 const menuToggle = document.getElementById('mobile-menu');
+const closeMenu = document.getElementById('close-menu');
 const navLinks = document.querySelector('.nav-links');
 
 if (menuToggle) {
@@ -71,6 +72,12 @@ if (menuToggle) {
         const icon = menuToggle.querySelector('i');
         icon.classList.toggle('fa-bars');
         icon.classList.toggle('fa-times');
+    });
+}
+
+if (closeMenu) {
+    closeMenu.addEventListener('click', () => {
+        navLinks.classList.remove('active');
     });
 }
 
